@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2009F044F9EFA1841B2D2DBE /* Pods_GummiLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D5D604A60836549FD5197D /* Pods_GummiLife.framework */; };
+		67CF58A690E053A5F864C62E /* Pods_GummiLife_copy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0252AC15F8F864BAB7453804 /* Pods_GummiLife_copy.framework */; };
+		D2182A922125849A0070A801 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2182A8F2125849A0070A801 /* RxBlocking.framework */; };
+		D2182A932125849A0070A801 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2182A902125849A0070A801 /* RxSwift.framework */; };
+		D2182A942125849A0070A801 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2182A912125849A0070A801 /* RxCocoa.framework */; };
+		D26722E92125742B0055071D /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26722E82125742B0055071D /* R.generated.swift */; };
+		D26722EE212575C70055071D /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26722E82125742B0055071D /* R.generated.swift */; };
+		D2E0B6702125791400147D43 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2E0B6722125791400147D43 /* Localizable.strings */; };
 		D2F6D34F204BB9750081E366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6D34E204BB9750081E366 /* AppDelegate.swift */; };
 		D2F6D351204BB9750081E366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6D350204BB9750081E366 /* ViewController.swift */; };
-		D2F6D354204BB9750081E366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F6D352204BB9750081E366 /* Main.storyboard */; };
 		D2F6D356204BB9750081E366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F6D355204BB9750081E366 /* Assets.xcassets */; };
 		D2F6D359204BB9750081E366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F6D357204BB9750081E366 /* LaunchScreen.storyboard */; };
+		D2F6D362204BBF350081E366 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F6D361204BBF350081E366 /* SnapKit.framework */; };
+		D2F6D36E204BCA830081E366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6D350204BB9750081E366 /* ViewController.swift */; };
+		D2F6D36F204BCA830081E366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6D34E204BB9750081E366 /* AppDelegate.swift */; };
+		D2F6D371204BCA830081E366 /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F6D364204BC4EA0081E366 /* Rswift.framework */; };
+		D2F6D372204BCA830081E366 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F6D361204BBF350081E366 /* SnapKit.framework */; };
+		D2F6D374204BCA830081E366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F6D357204BB9750081E366 /* LaunchScreen.storyboard */; };
+		D2F6D375204BCA830081E366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F6D355204BB9750081E366 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0252AC15F8F864BAB7453804 /* Pods_GummiLife_copy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GummiLife_copy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6CD5430DA3711FCD8343B6 /* Pods-GummiLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GummiLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GummiLife/Pods-GummiLife.debug.xcconfig"; sourceTree = "<group>"; };
+		B369940783567E17A813B0BD /* Pods-GummiLife copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GummiLife copy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GummiLife copy/Pods-GummiLife copy.debug.xcconfig"; sourceTree = "<group>"; };
+		BFF91C5CBED0F9885DAE9A5A /* Pods-GummiLife copy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GummiLife copy.release.xcconfig"; path = "Pods/Target Support Files/Pods-GummiLife copy/Pods-GummiLife copy.release.xcconfig"; sourceTree = "<group>"; };
+		C6413C604800AC619C35291D /* Pods-GummiLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GummiLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-GummiLife/Pods-GummiLife.release.xcconfig"; sourceTree = "<group>"; };
+		D2182A8F2125849A0070A801 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		D2182A902125849A0070A801 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		D2182A912125849A0070A801 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		D26722E82125742B0055071D /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = ../Resources/R.generated.swift; sourceTree = "<group>"; };
+		D2E0B6732125792C00147D43 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D2F6D34B204BB9750081E366 /* GummiLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GummiLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F6D34E204BB9750081E366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2F6D350204BB9750081E366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D2F6D353204BB9750081E366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D2F6D355204BB9750081E366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2F6D355204BB9750081E366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Resources/Assets.xcassets; sourceTree = "<group>"; };
 		D2F6D358204BB9750081E366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D2F6D35A204BB9750081E366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F6D35A204BB9750081E366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../SupportingFiles/Info.plist; sourceTree = "<group>"; };
+		D2F6D361204BBF350081E366 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		D2F6D364204BC4EA0081E366 /* Rswift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Rswift.framework; path = Carthage/Build/iOS/Rswift.framework; sourceTree = "<group>"; };
+		D2F6D37A204BCA830081E366 /* GummiLife copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GummiLife copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F6D37B204BCA840081E366 /* GummiLife copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GummiLife copy-Info.plist"; path = "/Users/kenzo/workspace/gummi/GummiLife/GummiLife copy-Info.plist"; sourceTree = "<absolute>"; };
+		D4D5D604A60836549FD5197D /* Pods_GummiLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GummiLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2182A922125849A0070A801 /* RxBlocking.framework in Frameworks */,
+				D2182A932125849A0070A801 /* RxSwift.framework in Frameworks */,
+				D2182A942125849A0070A801 /* RxCocoa.framework in Frameworks */,
+				D2F6D362204BBF350081E366 /* SnapKit.framework in Frameworks */,
+				2009F044F9EFA1841B2D2DBE /* Pods_GummiLife.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F6D370204BCA830081E366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F6D371204BCA830081E366 /* Rswift.framework in Frameworks */,
+				D2F6D372204BCA830081E366 /* SnapKit.framework in Frameworks */,
+				67CF58A690E053A5F864C62E /* Pods_GummiLife_copy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9700AE8D3F5D45940F54AD15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B6CD5430DA3711FCD8343B6 /* Pods-GummiLife.debug.xcconfig */,
+				C6413C604800AC619C35291D /* Pods-GummiLife.release.xcconfig */,
+				B369940783567E17A813B0BD /* Pods-GummiLife copy.debug.xcconfig */,
+				BFF91C5CBED0F9885DAE9A5A /* Pods-GummiLife copy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D26722EA2125743D0055071D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D2F6D34E204BB9750081E366 /* AppDelegate.swift */,
+				D2F6D350204BB9750081E366 /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D26722EC212574DE0055071D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D2F6D35A204BB9750081E366 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D26722ED212575260055071D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2F6D355204BB9750081E366 /* Assets.xcassets */,
+				D2F6D357204BB9750081E366 /* LaunchScreen.storyboard */,
+				D26722E82125742B0055071D /* R.generated.swift */,
+				D2E0B6722125791400147D43 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		D2F6D342204BB9740081E366 = {
 			isa = PBXGroup;
 			children = (
 				D2F6D34D204BB9750081E366 /* GummiLife */,
 				D2F6D34C204BB9750081E366 /* Products */,
+				D2F6D360204BBF340081E366 /* Frameworks */,
+				D2F6D37B204BCA840081E366 /* GummiLife copy-Info.plist */,
+				9700AE8D3F5D45940F54AD15 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				D2F6D34B204BB9750081E366 /* GummiLife.app */,
+				D2F6D37A204BCA830081E366 /* GummiLife copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +140,25 @@
 		D2F6D34D204BB9750081E366 /* GummiLife */ = {
 			isa = PBXGroup;
 			children = (
-				D2F6D34E204BB9750081E366 /* AppDelegate.swift */,
-				D2F6D350204BB9750081E366 /* ViewController.swift */,
-				D2F6D352204BB9750081E366 /* Main.storyboard */,
-				D2F6D355204BB9750081E366 /* Assets.xcassets */,
-				D2F6D357204BB9750081E366 /* LaunchScreen.storyboard */,
-				D2F6D35A204BB9750081E366 /* Info.plist */,
+				D26722EA2125743D0055071D /* Classes */,
+				D26722EC212574DE0055071D /* SupportingFiles */,
+				D26722ED212575260055071D /* Resources */,
 			);
 			path = GummiLife;
+			sourceTree = "<group>";
+		};
+		D2F6D360204BBF340081E366 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2182A8F2125849A0070A801 /* RxBlocking.framework */,
+				D2182A912125849A0070A801 /* RxCocoa.framework */,
+				D2182A902125849A0070A801 /* RxSwift.framework */,
+				D2F6D364204BC4EA0081E366 /* Rswift.framework */,
+				D2F6D361204BBF350081E366 /* SnapKit.framework */,
+				D4D5D604A60836549FD5197D /* Pods_GummiLife.framework */,
+				0252AC15F8F864BAB7453804 /* Pods_GummiLife_copy.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +168,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2F6D35D204BB9750081E366 /* Build configuration list for PBXNativeTarget "GummiLife" */;
 			buildPhases = (
+				CF4A5590A6E2CAFB762208FC /* [CP] Check Pods Manifest.lock */,
+				D2F6D369204BC5CC0081E366 /* ShellScript */,
 				D2F6D347204BB9750081E366 /* Sources */,
 				D2F6D348204BB9750081E366 /* Frameworks */,
 				D2F6D349204BB9750081E366 /* Resources */,
+				D2F6D363204BBF470081E366 /* Run Script(Carthage) */,
+				78F2ADF73096356CF39A1C14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,6 +185,26 @@
 			productReference = D2F6D34B204BB9750081E366 /* GummiLife.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D2F6D36B204BCA830081E366 /* GummiLife copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2F6D377204BCA830081E366 /* Build configuration list for PBXNativeTarget "GummiLife copy" */;
+			buildPhases = (
+				5D8F9B9491FB59D9FD5064DB /* [CP] Check Pods Manifest.lock */,
+				D2F6D36C204BCA830081E366 /* Run Script(R.swift) */,
+				D2F6D36D204BCA830081E366 /* Sources */,
+				D2F6D370204BCA830081E366 /* Frameworks */,
+				D2F6D373204BCA830081E366 /* Resources */,
+				D2F6D376204BCA830081E366 /* Run Script(Carthage) */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GummiLife copy";
+			productName = GummiLife;
+			productReference = D2F6D37A204BCA830081E366 /* GummiLife copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -91,11 +212,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = gummiapps;
 				TargetAttributes = {
 					D2F6D34A204BB9750081E366 = {
 						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D2F6D36B204BCA830081E366 = {
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -105,8 +229,8 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				ja,
 			);
 			mainGroup = D2F6D342204BB9740081E366;
 			productRefGroup = D2F6D34C204BB9750081E366 /* Products */;
@@ -114,6 +238,7 @@
 			projectRoot = "";
 			targets = (
 				D2F6D34A204BB9750081E366 /* GummiLife */,
+				D2F6D36B204BCA830081E366 /* GummiLife copy */,
 			);
 		};
 /* End PBXProject section */
@@ -124,12 +249,157 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2F6D359204BB9750081E366 /* LaunchScreen.storyboard in Resources */,
+				D2E0B6702125791400147D43 /* Localizable.strings in Resources */,
 				D2F6D356204BB9750081E366 /* Assets.xcassets in Resources */,
-				D2F6D354204BB9750081E366 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F6D373204BCA830081E366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F6D374204BCA830081E366 /* LaunchScreen.storyboard in Resources */,
+				D2F6D375204BCA830081E366 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D8F9B9491FB59D9FD5064DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GummiLife copy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78F2ADF73096356CF39A1C14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GummiLife/Pods-GummiLife-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GummiLife/Pods-GummiLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF4A5590A6E2CAFB762208FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GummiLife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2F6D363204BBF470081E366 /* Run Script(Carthage) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+			);
+			name = "Run Script(Carthage)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		D2F6D369204BC5CC0081E366 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/GummiLife/Resources\"";
+		};
+		D2F6D36C204BCA830081E366 /* Run Script(R.swift) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script(R.swift)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/GummiLife/SupportingFiles/rswift\" generate \"$SRCROOT/$PRODUCT_NAME/Resources\"";
+		};
+		D2F6D376204BCA830081E366 /* Run Script(Carthage) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Rswift.framework",
+			);
+			name = "Run Script(Carthage)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2F6D347204BB9750081E366 /* Sources */ = {
@@ -138,18 +408,29 @@
 			files = (
 				D2F6D351204BB9750081E366 /* ViewController.swift in Sources */,
 				D2F6D34F204BB9750081E366 /* AppDelegate.swift in Sources */,
+				D26722E92125742B0055071D /* R.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F6D36D204BCA830081E366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F6D36E204BCA830081E366 /* ViewController.swift in Sources */,
+				D2F6D36F204BCA830081E366 /* AppDelegate.swift in Sources */,
+				D26722EE212575C70055071D /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D2F6D352204BB9750081E366 /* Main.storyboard */ = {
+		D2E0B6722125791400147D43 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D2F6D353204BB9750081E366 /* Base */,
+				D2E0B6732125792C00147D43 /* ja */,
 			);
-			name = Main.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		D2F6D357204BB9750081E366 /* LaunchScreen.storyboard */ = {
@@ -158,6 +439,7 @@
 				D2F6D358204BB9750081E366 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -167,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -177,6 +460,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +468,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -214,6 +499,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = GummiLife;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -224,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -234,6 +521,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +529,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -264,6 +553,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GummiLife;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -272,11 +562,16 @@
 		};
 		D2F6D35E204BB9750081E366 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6CD5430DA3711FCD8343B6 /* Pods-GummiLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4NV77D6BUZ;
-				INFOPLIST_FILE = GummiLife/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GummiLife/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gummiapps.GummiLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +582,56 @@
 		};
 		D2F6D35F204BB9750081E366 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6413C604800AC619C35291D /* Pods-GummiLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4NV77D6BUZ;
-				INFOPLIST_FILE = GummiLife/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GummiLife/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gummiapps.GummiLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2F6D378204BCA830081E366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B369940783567E17A813B0BD /* Pods-GummiLife copy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NV77D6BUZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "GummiLife copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gummiapps.GummiLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2F6D379204BCA830081E366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF91C5CBED0F9885DAE9A5A /* Pods-GummiLife copy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NV77D6BUZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "GummiLife copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gummiapps.GummiLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -317,6 +657,15 @@
 			buildConfigurations = (
 				D2F6D35E204BB9750081E366 /* Debug */,
 				D2F6D35F204BB9750081E366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2F6D377204BCA830081E366 /* Build configuration list for PBXNativeTarget "GummiLife copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F6D378204BCA830081E366 /* Debug */,
+				D2F6D379204BCA830081E366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
